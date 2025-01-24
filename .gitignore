@@ -1,0 +1,46 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment (specific to your project)
+smooking_relapse_prediction/
+
+# Dependency management files (keep requirements.txt if used)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Environment variables and secret configurations
+.env
+*.env
+.env.* 
+secrets.json
+# Streamlit-specific secrets and config files
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Logs and database files
+*.log
+*.sqlite3
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VS Code workspace settings
+.vscode/
+*.code-workspace
+
+# Jupyter notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Other
+*.bak
+*.tmp
